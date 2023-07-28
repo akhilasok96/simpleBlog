@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: cafe;
+  src: url(../Fonts/cafe.ttf);
+}
+
+@font-face {
+  font-family: sansation;
+  src: url(../Fonts/sansation.ttf);
+}
+
+.blogpage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(109, 165, 167);
+  gap: 40px;
+}
+
+.blogpage h1 {
+  font-family: cafe;
+  margin-top: 20px;
+  color: honeydew;
+}
+
+.blogcards {
+  padding: 20px 20px;
+  width: 80%;
+}
+
+.contents {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 18px;
+  border: 2px solid honeydew;
+  border-radius: 8px;
+  background-color: honeydew;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 6px 6px rgb(91, 142, 143);
+  transition: 0.3s;
+}
+
+.contents:hover {
+  transform: scale(1.05);
+}
+
+.contents p,
+h3 {
+  font-family: cafe;
+  margin-bottom: 5px;
+}
+
+.title {
+  border-radius: 4px;
+}
+
+#mail {
+  padding-bottom: 5px;
+}
+
+#text-content {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+#blog-time {
+  color: rgb(45, 115, 118);
+}
+
+.contents hr {
+  width: 100%;
+  margin-bottom: 8px;
+  border: 1px solid rgb(106, 145, 146);
+}
