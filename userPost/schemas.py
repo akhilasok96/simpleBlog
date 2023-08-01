@@ -25,12 +25,5 @@ class PostResponse(BaseModel):
     class Config:
         orm_mode = True
 
-# class BlogResponse(BaseModel):
-#     email: str
-#     title: str
-#     content: str
-#     date_time: str
 
-#     class Config:
-#         orm_mode = True
 

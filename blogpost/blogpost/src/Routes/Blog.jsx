@@ -20,6 +20,9 @@ function Blog() {
   return (
     <div className="blogpage">
       <h1>Blog Page</h1>
+      <form>
+        <input type="submit" value="Add Post" />
+      </form>
       <div className="blogcards">
         {blogs.map((blog) => {
           return (

@@ -9,7 +9,7 @@ const Login = () => {
   const [users, setUsers] = useState([]);
 
   const handleSubmit = () => {
-    fetch("http://127.0.0.1:8000/")
+    fetch("http://127.0.0.1:8000/users")
       .then((response) => response.json())
       .then((json) => setUsers(json))
       .catch((error) => console.log("error", error));
